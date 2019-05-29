@@ -1,2 +1,5 @@
-import "./style/main.scss";
-console.log("hello, world");
+import React from 'react';
+import { render } from 'react-dom';
+import App from './components/App';
+
+render(<App />, document.getElementById('app'));
